@@ -54,9 +54,14 @@ public class ItemSpawning : MonoBehaviour
             //***SUBJECT TO CHANGE***//
             currItemObject = Instantiate(spawnedItemPrefab, spawnPosition, Quaternion.identity);
             currItemObject.GetComponent<SpriteRenderer>().sprite = spawnedItem.itemSprite;
+            currItemObject.transform.localScale = new Vector2(0.1f, 0.1f);
+            /*currItemObject.AddComponent<Animation>() as Animation;
+            currItemObject.GetComponent<Animation>().AddClip(spawnedItem.sprite, "CurrAnimation");
+            GetComponent<Animation>().wrapMode = WrapMode.Loop;
+            currItemObject.GetComponent<Animation>().Play("CurrAnimation");*/
             currItemObject.name = spawnedItem.itemName;
             currItemObject.gameObject.tag = "Item";
-
+            currItemObject.gameObject.layer = 6;
             float force = 75f;
             Vector2 direction = new Vector2(Random.Range(-1f, 1f), Random.Range(0f, -1f));
             currItemObject.GetComponent<Rigidbody2D>().AddForce(direction * force, ForceMode2D.Impulse);
