@@ -12,7 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c13ddb5f292236448a2eac12b3069cf8, type: 3}
   m_Name: Scrap Material
   m_EditorClassIdentifier: 
-  itemSprite: {fileID: -2413806693520163455, guid: 6b9024ebbefd2f245af62434a9e94362, type: 3}
+  sprite: {fileID: 7400000, guid: 5e335e5293bc98f4f951afc295df39aa, type: 2}
+  itemSprite: {fileID: -1095342991, guid: deb1cbb988d7cf34ca1017f5db29b4da, type: 3}
   itemName: Scrap Material
   dropRate: 20
   duration: 0

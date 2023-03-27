@@ -12,7 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c13ddb5f292236448a2eac12b3069cf8, type: 3}
   m_Name: Engine Boosters
   m_EditorClassIdentifier: 
-  itemSprite: {fileID: -9095717837082945937, guid: 1c909fa19f2a00c42a963587d2d1a425, type: 3}
+  sprite: {fileID: 7400000, guid: 14d7af5ea49f6434783b8f754948d500, type: 2}
+  itemSprite: {fileID: -1165646158, guid: f349280c587889c46bd1b9ada20f57ad, type: 3}
   itemName: Engine Boosters
   dropRate: 5
   duration: 15
