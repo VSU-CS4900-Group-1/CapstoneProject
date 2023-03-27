@@ -1,0 +1,1179 @@
+fileFormatVersion: 2
+guid: b1fdc25706c42b445b71d85f120e1552
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: gunUpgrade_spriteSheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4333
+        width: 721
+        height: 721
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 350b9ab30f089fb48bd0bbc981b7559a
+      internalID: -689600289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gunUpgrade_spriteSheet_1
+      rect:
+        serializedVersion: 2
+        x: 722
+        y: 4333
+        width: 721
+        height: 721
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c690d1e585281b47939e789bfb38aca
+      internalID: -961687107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gunUpgrade_spriteSheet_2
+      rect:
+        serializedVersion: 2
+        x: 1444
+        y: 4333
+        width: 721
+        height: 721
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84e06f0e4e8b546448b7205f58a0d3f6
+      internalID: -689138691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gunUpgrade_spriteSheet_3
+      rect:
+        serializedVersion: 2
+        x: 2166
+        y: 4333
+        width: 721
+        height: 721
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6634621efe7021c478ff49c86d776702
+      internalID: 1904958612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gunUpgrade_spriteSheet_4
+      rect:
+        serializedVersion: 2
+        x: 2888
+        y: 4333
+        width: 721
+        height: 721
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2986c2c76251c4d4bb837c72b14a2f15
+      internalID: -858076256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gunUpgrade_spriteSheet_5
+      rect:
+        serializedVersion: 2
+        x: 3610
+        y: 4333
+        width: 721
+        height: 721
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31b0905cdec42cd4ea2ee79ce2d8a5dc
+      internalID: 722825570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gunUpgrade_spriteSheet_6
+      rect:
+        serializedVersion: 2
+        x: 4332
+        y: 4333
+        width: 721
+        height: 721
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71338896335329e48b6b37055075400e
+      internalID: -806752507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gunUpgrade_spriteSheet_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3611
+        width: 721
+        height: 721
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47d91129fd434184cbb93a10b57017ea
+      internalID: 826249532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gunUpgrade_spriteSheet_8
+      rect:
+        serializedVersion: 2
+        x: 722
+        y: 3611
+        width: 721
+        height: 721
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 226170c0ce24f5845af114176da95f24
+      internalID: -1096032791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gunUpgrade_spriteSheet_9
+      rect:
+        serializedVersion: 2
+        x: 1444
+        y: 3611
+        width: 721
+        height: 721
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7a96b3cbed0dbf4aadc54706237f59f
+      internalID: -1884666746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gunUpgrade_spriteSheet_10
+      rect:
+        serializedVersion: 2
+        x: 2166
+        y: 3611
+        width: 721
+        height: 721
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 696ac70d7280622438ff6edde9c71538
+      internalID: 1567031728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gunUpgrade_spriteSheet_11
+      rect:
+        serializedVersion: 2
+        x: 2888
+        y: 3611
+        width: 721
+        height: 721
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c019891f4327c14399337e11ec95b2a
+      internalID: 715216332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gunUpgrade_spriteSheet_12
+      rect:
+        serializedVersion: 2
+        x: 3610
+        y: 3611
+        width: 721
+        height: 721
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddde295fda1ca624d9436134882d7ac6
+      internalID: 1710102733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gunUpgrade_spriteSheet_13
+      rect:
+        serializedVersion: 2
+        x: 4332
+        y: 3611
+        width: 721
+        height: 721
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ddbee14ac8f5d845873531021750b0a
+      internalID: -1214104320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gunUpgrade_spriteSheet_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2889
+        width: 721
+        height: 721
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8a4aa72709302a48bbe8093e1842009
+      internalID: -919323710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gunUpgrade_spriteSheet_15
+      rect:
+        serializedVersion: 2
+        x: 722
+        y: 2889
+        width: 721
+        height: 721
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f400eb85729f81145bbbbcf8f7057aeb
+      internalID: 779891346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gunUpgrade_spriteSheet_16
+      rect:
+        serializedVersion: 2
+        x: 1444
+        y: 2889
+        width: 721
+        height: 721
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc9ab0169a3b4c248935d93112151455
+      internalID: -285783597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gunUpgrade_spriteSheet_17
+      rect:
+        serializedVersion: 2
+        x: 2166
+        y: 2889
+        width: 721
+        height: 721
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2c5cb907040c8c45876794ecac50cd3
+      internalID: 1963883909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gunUpgrade_spriteSheet_18
+      rect:
+        serializedVersion: 2
+        x: 2888
+        y: 2889
+        width: 721
+        height: 721
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09271338b989bec4dbefecfb4af4b767
+      internalID: 46344814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gunUpgrade_spriteSheet_19
+      rect:
+        serializedVersion: 2
+        x: 3610
+        y: 2889
+        width: 721
+        height: 721
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3a5e70a1e8cc10459745903f245546c
+      internalID: 1226633557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gunUpgrade_spriteSheet_20
+      rect:
+        serializedVersion: 2
+        x: 4332
+        y: 2889
+        width: 721
+        height: 721
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89780ab52deeb74468ddbdd4aec89969
+      internalID: -558001538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gunUpgrade_spriteSheet_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2167
+        width: 721
+        height: 721
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ad8c60e1d6ee684f900a7fc8f0d3c53
+      internalID: -864660414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gunUpgrade_spriteSheet_22
+      rect:
+        serializedVersion: 2
+        x: 722
+        y: 2167
+        width: 721
+        height: 721
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4611f0d90d266644289aeceb2d43eb5f
+      internalID: -183760340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gunUpgrade_spriteSheet_23
+      rect:
+        serializedVersion: 2
+        x: 1444
+        y: 2167
+        width: 721
+        height: 721
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b319a542f39bf4647b86113c31ce1598
+      internalID: -1862903016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gunUpgrade_spriteSheet_24
+      rect:
+        serializedVersion: 2
+        x: 2166
+        y: 2167
+        width: 721
+        height: 721
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abc5559d42adefe488c3c942a8c60f9c
+      internalID: 1978380884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gunUpgrade_spriteSheet_25
+      rect:
+        serializedVersion: 2
+        x: 2888
+        y: 2167
+        width: 721
+        height: 721
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81d22a91ddd3fdb4caa991a28e97ea8d
+      internalID: 831759169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gunUpgrade_spriteSheet_26
+      rect:
+        serializedVersion: 2
+        x: 3610
+        y: 2167
+        width: 721
+        height: 721
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a2f2800050e49944a35fe2840a2aa00
+      internalID: 695125703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gunUpgrade_spriteSheet_27
+      rect:
+        serializedVersion: 2
+        x: 4332
+        y: 2167
+        width: 721
+        height: 721
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5534dbe8bdcede4cab6dd9e69e12669
+      internalID: 195306043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gunUpgrade_spriteSheet_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1445
+        width: 721
+        height: 721
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86839aaa49d1c2845974b720ee61a8c1
+      internalID: 1288266251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gunUpgrade_spriteSheet_29
+      rect:
+        serializedVersion: 2
+        x: 722
+        y: 1445
+        width: 721
+        height: 721
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9578fa90dfff6242bd4592240145b73
+      internalID: 1194257621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gunUpgrade_spriteSheet_30
+      rect:
+        serializedVersion: 2
+        x: 1444
+        y: 1445
+        width: 721
+        height: 721
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a5df6eb88a2796489d5284ad253d704
+      internalID: 1865904905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gunUpgrade_spriteSheet_31
+      rect:
+        serializedVersion: 2
+        x: 2166
+        y: 1445
+        width: 721
+        height: 721
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 402b8c0ed61ed934f8d4e2494a40b33c
+      internalID: 154790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gunUpgrade_spriteSheet_32
+      rect:
+        serializedVersion: 2
+        x: 2888
+        y: 1445
+        width: 721
+        height: 721
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 603769c2adda9484687f5720196b17fb
+      internalID: 1898438283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gunUpgrade_spriteSheet_33
+      rect:
+        serializedVersion: 2
+        x: 3610
+        y: 1445
+        width: 721
+        height: 721
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfef4ec8eaf7de34493f93633744b90a
+      internalID: -1917888442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gunUpgrade_spriteSheet_34
+      rect:
+        serializedVersion: 2
+        x: 4332
+        y: 1445
+        width: 721
+        height: 721
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e48b9edb1a1a8d942b7a194b616ec157
+      internalID: 1699182611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gunUpgrade_spriteSheet_35
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 723
+        width: 721
+        height: 721
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af86676a6fd5c1a46af9ba3d23ec04a7
+      internalID: -1485687912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gunUpgrade_spriteSheet_36
+      rect:
+        serializedVersion: 2
+        x: 722
+        y: 723
+        width: 721
+        height: 721
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f16f865c38038d5448db0f3478a2131c
+      internalID: -1505826237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gunUpgrade_spriteSheet_37
+      rect:
+        serializedVersion: 2
+        x: 1444
+        y: 723
+        width: 721
+        height: 721
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac0e3f847add7ad4e9c7fb9c703c311c
+      internalID: 179606580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gunUpgrade_spriteSheet_38
+      rect:
+        serializedVersion: 2
+        x: 2166
+        y: 723
+        width: 721
+        height: 721
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 731059e747df9a049baefc782b2748c7
+      internalID: -992909520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gunUpgrade_spriteSheet_39
+      rect:
+        serializedVersion: 2
+        x: 2888
+        y: 723
+        width: 721
+        height: 721
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8af19c7a101045429a3e78b0af9429d
+      internalID: 931013238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gunUpgrade_spriteSheet_40
+      rect:
+        serializedVersion: 2
+        x: 3610
+        y: 723
+        width: 721
+        height: 721
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cde4e28d77df1064ba0c0d922c0dcfd6
+      internalID: -1598949658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gunUpgrade_spriteSheet_41
+      rect:
+        serializedVersion: 2
+        x: 4332
+        y: 723
+        width: 721
+        height: 721
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d8d5cd7a417f8d4da690b53a3a25fc8
+      internalID: 505854394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gunUpgrade_spriteSheet_42
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1
+        width: 721
+        height: 721
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a8296123a309604da5bfe6d226bc0b0
+      internalID: -536261123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gunUpgrade_spriteSheet_43
+      rect:
+        serializedVersion: 2
+        x: 722
+        y: 1
+        width: 721
+        height: 721
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fec9f67ff91dad4faee1087e29cf87d
+      internalID: -1131195992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gunUpgrade_spriteSheet_44
+      rect:
+        serializedVersion: 2
+        x: 1444
+        y: 1
+        width: 721
+        height: 721
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a05a149ee32bf246a85589d6fa06800
+      internalID: -776145652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gunUpgrade_spriteSheet_45
+      rect:
+        serializedVersion: 2
+        x: 2166
+        y: 1
+        width: 721
+        height: 721
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2b75832a897c7545aac5154a8061065
+      internalID: -1783363376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gunUpgrade_spriteSheet_46
+      rect:
+        serializedVersion: 2
+        x: 2888
+        y: 1
+        width: 721
+        height: 721
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9e148a187e05cc4facb79bb0617dfd2
+      internalID: -2065604188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gunUpgrade_spriteSheet_47
+      rect:
+        serializedVersion: 2
+        x: 3610
+        y: 1
+        width: 721
+        height: 721
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13690c6d471b8d248ae5abdc33b30656
+      internalID: -2128315510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      gunUpgrade_spriteSheet_22: -183760340
+      gunUpgrade_spriteSheet_15: 779891346
+      gunUpgrade_spriteSheet_17: 1963883909
+      gunUpgrade_spriteSheet_0: -689600289
+      gunUpgrade_spriteSheet_18: 46344814
+      gunUpgrade_spriteSheet_43: -1131195992
+      gunUpgrade_spriteSheet_11: 715216332
+      gunUpgrade_spriteSheet_13: -1214104320
+      gunUpgrade_spriteSheet_1: -961687107
+      gunUpgrade_spriteSheet_5: 722825570
+      gunUpgrade_spriteSheet_24: 1978380884
+      gunUpgrade_spriteSheet_25: 831759169
+      gunUpgrade_spriteSheet_33: -1917888442
+      gunUpgrade_spriteSheet_21: -864660414
+      gunUpgrade_spriteSheet_47: -2128315510
+      gunUpgrade_spriteSheet_7: 826249532
+      gunUpgrade_spriteSheet_26: 695125703
+      gunUpgrade_spriteSheet_27: 195306043
+      gunUpgrade_spriteSheet_16: -285783597
+      gunUpgrade_spriteSheet_9: -1884666746
+      gunUpgrade_spriteSheet_10: 1567031728
+      gunUpgrade_spriteSheet_45: -1783363376
+      gunUpgrade_spriteSheet_3: 1904958612
+      gunUpgrade_spriteSheet_4: -858076256
+      gunUpgrade_spriteSheet_30: 1865904905
+      gunUpgrade_spriteSheet_34: 1699182611
+      gunUpgrade_spriteSheet_20: -558001538
+      gunUpgrade_spriteSheet_41: 505854394
+      gunUpgrade_spriteSheet_44: -776145652
+      gunUpgrade_spriteSheet_23: -1862903016
+      gunUpgrade_spriteSheet_29: 1194257621
+      gunUpgrade_spriteSheet_14: -919323710
+      gunUpgrade_spriteSheet_42: -536261123
+      gunUpgrade_spriteSheet_8: -1096032791
+      gunUpgrade_spriteSheet_38: -992909520
+      gunUpgrade_spriteSheet_19: 1226633557
+      gunUpgrade_spriteSheet_12: 1710102733
+      gunUpgrade_spriteSheet_32: 1898438283
+      gunUpgrade_spriteSheet_36: -1505826237
+      gunUpgrade_spriteSheet_40: -1598949658
+      gunUpgrade_spriteSheet_6: -806752507
+      gunUpgrade_spriteSheet_28: 1288266251
+      gunUpgrade_spriteSheet_35: -1485687912
+      gunUpgrade_spriteSheet_37: 179606580
+      gunUpgrade_spriteSheet_46: -2065604188
+      gunUpgrade_spriteSheet_2: -689138691
+      gunUpgrade_spriteSheet_39: 931013238
+      gunUpgrade_spriteSheet_31: 154790
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
