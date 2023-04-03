@@ -31,6 +31,9 @@ public class PlayerHealth : MonoBehaviour
         currentHealth -= amount;        
     }
 
+    
+    
+
     void OnCollisionEnter2D(Collision2D collision)
     {
         if(collision.gameObject.tag == "Enemy")
@@ -45,6 +48,8 @@ public class PlayerHealth : MonoBehaviour
 
 	      if(currentHealth <= 0)
 	      {
+
+            
             if (extraLives > 0) {
 
                 extraLives -= 1;
@@ -81,6 +86,9 @@ public class PlayerHealth : MonoBehaviour
         Player.transform.position = new Vector3(0, 0, 0);
        
 
-            Destroy(gameObject);
-	}
-}
+            
+	      }
+
+    }
+
+

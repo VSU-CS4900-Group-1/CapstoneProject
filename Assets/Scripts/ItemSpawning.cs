@@ -8,6 +8,7 @@ public class ItemSpawning : MonoBehaviour
     public GameObject spawnedItemPrefab;             // Variable that controls the Item prefab that spawns items upon death
     private GameObject currItemObject;               // Current instantiated item object 
     public List<Item> itemList = new List<Item>();   // List that holds all existing items
+    private Animator anim;                           //Animator object used to organize item animations
 
     /***Methods***/
 
@@ -54,17 +55,38 @@ public class ItemSpawning : MonoBehaviour
             //***SUBJECT TO CHANGE***//
             currItemObject = Instantiate(spawnedItemPrefab, spawnPosition, Quaternion.identity);
             currItemObject.GetComponent<SpriteRenderer>().sprite = spawnedItem.itemSprite;
-            currItemObject.transform.localScale = new Vector2(0.1f, 0.1f);
-            /*currItemObject.AddComponent<Animation>() as Animation;
-            currItemObject.GetComponent<Animation>().AddClip(spawnedItem.sprite, "CurrAnimation");
-            GetComponent<Animation>().wrapMode = WrapMode.Loop;
-            currItemObject.GetComponent<Animation>().Play("CurrAnimation");*/
+            triggerAnimation(spawnedItem, currItemObject);
             currItemObject.name = spawnedItem.itemName;
             currItemObject.gameObject.tag = "Item";
             currItemObject.gameObject.layer = 6;
             float force = 75f;
             Vector2 direction = new Vector2(Random.Range(-1f, 1f), Random.Range(0f, -1f));
             currItemObject.GetComponent<Rigidbody2D>().AddForce(direction * force, ForceMode2D.Impulse);
+        }
+    }
+
+    /*Generates an item animation for the current item object*/
+    private void triggerAnimation(Item currItem, GameObject currItemObject)
+    {
+        anim = currItemObject.GetComponent<Animator>();
+        if(anim != null)
+        {
+            switch(currItem.name)
+            {
+                case "Deflector Shield" :
+                    anim.SetTrigger("DeflectorShieldsActive");
+                    break;
+                case "Engine Boosters":
+                    anim.SetTrigger("EngineBoostersActive");
+                    break;
+                case "Gun Upgrade":
+                    anim.SetTrigger("GunUpgradeActive");
+                    break;
+                case "Scrap Material":
+                    anim.SetTrigger("ScrapMaterialActive");
+                    break;
+
+            }
         }
     }
 

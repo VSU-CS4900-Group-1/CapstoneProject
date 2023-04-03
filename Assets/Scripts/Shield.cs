@@ -4,20 +4,24 @@ using UnityEngine;
 
 public class Shield : MonoBehaviour
 {
-    //private bool shieldActive = false;
-    public GameObject shieldPrefab;
-    //private bool activeShield = false;
-    /*public int maxDurability = 3;
-    private int currDurability;*/
+    public GameObject shieldPrefab;    //Holds shield prefab in Inspector
+    private Animator anim;             //Variable for the prefab's animator controller
     
     // Start is called before the first frame update
     void Start()
     {
-        /*shield = GameObject.Find("Deflector Shield").gameObject;*/
-        //shieldPrefab.SetActive(true);
+        anim = GetComponent<Animator>();
     }
 
     // Update is called once per frame
+
+    void Update()
+    {
+        if(anim != null)
+        {
+            anim.Play("DeflectorShieldsAnim");
+        }
+    }
 
     public void ActivateShield()
     {
@@ -30,6 +34,7 @@ public class Shield : MonoBehaviour
         
     }
 
+    //Handles collision events with enemies and enemy bullets
     void OnTriggerEnter2D(Collider2D collider)
     {
         if(collider.gameObject.tag == "Enemy")

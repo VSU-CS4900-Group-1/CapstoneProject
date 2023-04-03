@@ -12,7 +12,6 @@ using UnityEngine;
 public class Item : ScriptableObject
 {
     /***Variables***/
-    public AnimationClip sprite;
     public Sprite itemSprite;    //The sprite of a given item (TODO: store sprite animations)
     public string itemName;      //The name of an item
     public double dropRate;      //The percentage of drop scarcity
