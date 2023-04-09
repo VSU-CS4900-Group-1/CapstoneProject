@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 13451644}
   - component: {fileID: 13451645}
   - component: {fileID: 13451646}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: EnemyWeapon (1)
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -74,7 +74,7 @@ GameObject:
   - component: {fileID: 440795726}
   - component: {fileID: 440795727}
   - component: {fileID: 440795728}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: EnemyWeapon (5)
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -137,7 +137,7 @@ GameObject:
   - component: {fileID: 708012571}
   - component: {fileID: 708012572}
   - component: {fileID: 708012573}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: EnemyWeapon (2)
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -200,7 +200,7 @@ GameObject:
   - component: {fileID: 724088642}
   - component: {fileID: 724088643}
   - component: {fileID: 724088644}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: EnemyWeapon (6)
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -263,7 +263,7 @@ GameObject:
   - component: {fileID: 829407297}
   - component: {fileID: 829407298}
   - component: {fileID: 829407299}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: EnemyWeapon (4)
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -326,7 +326,7 @@ GameObject:
   - component: {fileID: 1146048366}
   - component: {fileID: 1146048367}
   - component: {fileID: 1146048368}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: EnemyWeapon (3)
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -389,7 +389,7 @@ GameObject:
   - component: {fileID: 1287072845}
   - component: {fileID: 1287072846}
   - component: {fileID: 1287072847}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: EnemyWeapon (7)
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -451,7 +451,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1358734083}
   - component: {fileID: 1358734084}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: EnemyWeapon
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -500,7 +500,7 @@ GameObject:
   - component: {fileID: 1478386583}
   - component: {fileID: 1478386584}
   - component: {fileID: 1478386585}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: EnemyWeapon (8)
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -563,7 +563,7 @@ GameObject:
   - component: {fileID: 1604795482}
   - component: {fileID: 1604795483}
   - component: {fileID: 1604795484}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: EnemyWeapon (9)
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -628,9 +628,9 @@ GameObject:
   - component: {fileID: -2568388629365940278}
   - component: {fileID: -6462277444561349912}
   - component: {fileID: 312973190}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Boss
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
