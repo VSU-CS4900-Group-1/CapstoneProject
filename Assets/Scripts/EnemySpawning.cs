@@ -127,7 +127,7 @@ public class EnemySpawning : MonoBehaviour {
                 yield return new WaitForSeconds(1f / wave.rate);
                 yield return new WaitForSeconds(1f / wave2.rate);
             }
-
+           
 
 
 
