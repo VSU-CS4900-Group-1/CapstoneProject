@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: -6609483166703895982}
   - component: {fileID: 6348118755918047171}
   - component: {fileID: -8672918667983351362}
-  - component: {fileID: -700398440478474314}
+  - component: {fileID: -5266063443044638469}
   m_Layer: 0
   m_Name: Deflector Shield
   m_TagString: Shield
@@ -77,7 +77,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: -2413806693520163455, guid: 6b9024ebbefd2f245af62434a9e94362, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.78431374}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -102,7 +102,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 3.2
+  m_Radius: 3.1
 --- !u!114 &-8672918667983351362
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -116,7 +116,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   shieldPrefab: {fileID: 1598013222141162214}
---- !u!95 &-700398440478474314
+--- !u!95 &-5266063443044638469
 Animator:
   serializedVersion: 5
   m_ObjectHideFlags: 0

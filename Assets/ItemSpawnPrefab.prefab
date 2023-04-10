@@ -11,9 +11,9 @@ GameObject:
   - component: {fileID: 5290956222719764698}
   - component: {fileID: 5290956222719764699}
   - component: {fileID: 5290956222719764696}
-  - component: {fileID: -4772946032576778962}
-  - component: {fileID: -8052857957021878354}
   - component: {fileID: -4777211370055628100}
+  - component: {fileID: -4772946032576778962}
+  - component: {fileID: -2461612366879644049}
   m_Layer: 0
   m_Name: ItemSpawnPrefab
   m_TagString: Item
@@ -109,6 +109,24 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &-4777211370055628100
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5290956222719764697}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a7852280c83eb5c46a7a73bbba70ba19, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spawnedItemPrefab: {fileID: 5290956222719764697}
+  itemList:
+  - {fileID: 11400000, guid: 5d2ef314ba5d1cb41a710c9072c0e32c, type: 2}
+  - {fileID: 11400000, guid: 1d905cd678c07724f95182fd2c4366ba, type: 2}
+  - {fileID: 11400000, guid: 11868cdcb7d8e934d8c8530d66537b5c, type: 2}
+  - {fileID: 11400000, guid: e2df043c47e85274bb526288dfa4fa60, type: 2}
 --- !u!60 &-4772946032576778962
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -138,7 +156,7 @@ PolygonCollider2D:
       - {x: -0.5, y: -0.5}
       - {x: 0.5, y: -0.5}
       - {x: 0.5, y: 0.5}
---- !u!95 &-8052857957021878354
+--- !u!95 &-2461612366879644049
 Animator:
   serializedVersion: 5
   m_ObjectHideFlags: 0
@@ -158,21 +176,3 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
---- !u!114 &-4777211370055628100
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5290956222719764697}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a7852280c83eb5c46a7a73bbba70ba19, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  spawnedItemPrefab: {fileID: 5290956222719764697}
-  itemList:
-  - {fileID: 11400000, guid: 5d2ef314ba5d1cb41a710c9072c0e32c, type: 2}
-  - {fileID: 11400000, guid: 1d905cd678c07724f95182fd2c4366ba, type: 2}
-  - {fileID: 11400000, guid: 11868cdcb7d8e934d8c8530d66537b5c, type: 2}
-  - {fileID: 11400000, guid: e2df043c47e85274bb526288dfa4fa60, type: 2}
