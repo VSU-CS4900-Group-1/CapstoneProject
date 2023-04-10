@@ -4,9 +4,9 @@ using UnityEngine;
 
 public class Shield : MonoBehaviour
 {
-    public GameObject shieldPrefab;    //Holds shield prefab in Inspector
+    public GameObject shieldPrefab;    //Variable to hold the shield prefab
     private Animator anim;             //Variable for the prefab's animator controller
-    
+
     // Start is called before the first frame update
     void Start()
     {
@@ -14,27 +14,17 @@ public class Shield : MonoBehaviour
     }
 
     // Update is called once per frame
-
     void Update()
     {
         if(anim != null)
         {
-            anim.Play("DeflectorShieldsAnim");
+            if (shieldPrefab.activeSelf)
+            {
+                anim.Play("DeflectorShieldsAnim");
+            }
         }
     }
 
-    public void ActivateShield()
-    {
-        
-    }
-
-    public void DeactivateShield()
-    {
-        
-        
-    }
-
-    //Handles collision events with enemies and enemy bullets
     void OnTriggerEnter2D(Collider2D collider)
     {
         if(collider.gameObject.tag == "Enemy")

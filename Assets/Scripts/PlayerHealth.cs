@@ -13,6 +13,7 @@ public class PlayerHealth : MonoBehaviour
     Renderer rend;
     Color c;
     public GameObject Player;
+    public GameObject explosionPrefab;
    
     void Start()
     {
@@ -53,7 +54,9 @@ public class PlayerHealth : MonoBehaviour
             if (extraLives > 0) {
 
                 extraLives -= 1;
-                
+                GameObject explosion = Instantiate(explosionPrefab, transform.position, Quaternion.identity);
+                explosion.GetComponent<ParticleSystem>().Play();
+                Destroy(explosion, 2f);
                 Player.transform.position = new Vector3(-500, -500, 0);
                 StartCoroutine(Timer());
                 StopCoroutine(Timer());
@@ -63,6 +66,9 @@ public class PlayerHealth : MonoBehaviour
             }
             else {
                 Destroy(gameObject);
+                GameObject explosion = Instantiate(explosionPrefab, transform.position, Quaternion.identity);
+                explosion.GetComponent<ParticleSystem>().Play();
+                Destroy(explosion, 2f);
                 //game over screen
             }
         }
