@@ -1,13 +1,17 @@
 using System.Collections;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class EnemySpawning : MonoBehaviour {
-    
+     public Animator transition;
+    public float transitionTime = 20f;
     //detail what enum does
     public enum SpawnState { spawning, waiting, counting };
 
     //Allows changes/edits to be made inside the inspector in Unity
     [System.Serializable]
+
+   
 
     public class EnemyWave 
     {
@@ -49,7 +53,10 @@ public class EnemySpawning : MonoBehaviour {
         if(state == SpawnState.waiting) {
             //see if enemies are still alive
             if(!enemyIsAlive()) {
-                waveCompleted();
+                //waveCompleted();
+                if(waveCompleted() == 1) {
+                    LoadNextLevel();
+                }
             }
 
             else {
@@ -73,7 +80,21 @@ public class EnemySpawning : MonoBehaviour {
     }
 
 
-    void waveCompleted() 
+    void LoadNextLevel() {
+        StartCoroutine(LoadLevel(SceneManager.GetActiveScene().buildIndex + 1));
+    }
+
+    IEnumerator LoadLevel(int levelIndex) {
+        transition.SetTrigger("Start");
+
+        yield return new WaitForSeconds(transitionTime);
+
+        SceneManager.LoadScene(levelIndex);
+    }
+
+
+
+    public int waveCompleted() 
     {
 
         Debug.Log("Wave Completed!");
@@ -81,14 +102,17 @@ public class EnemySpawning : MonoBehaviour {
         waveCountdown = timeBetweenWaves;
 
         if(nextWave + 1 > enemyWave.Length - 1) {
-            nextWave = 0;
-            nextWave2 = 0;
+            //nextWave = 0;
+            //nextWave2 = 0;
+            //LoadNextLevel();
+            return 1;
             Debug.Log("All enemy waves complete. Looping");
         }
 
         else {
             nextWave++;
             nextWave2++;
+            return 0;
         }
         
     }
@@ -175,5 +199,7 @@ public class EnemySpawning : MonoBehaviour {
 
         //return;
 
+
+       
     }
 }
