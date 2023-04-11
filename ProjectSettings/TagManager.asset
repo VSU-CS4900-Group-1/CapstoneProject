@@ -8,14 +8,16 @@ TagManager:
   - Bullet
   - Item
   - EnemyBullet
+  - Shield
+  - LevelLoader
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - outerlayer
   - Water
   - UI
-  - 
+  - Item
   - InnerBorder
   - 
   - Enemy
