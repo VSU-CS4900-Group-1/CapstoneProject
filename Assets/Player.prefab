@@ -202,6 +202,7 @@ MonoBehaviour:
   livesCounter: 0
   LifeText: {fileID: 0}
   Player: {fileID: 0}
+  explosionPrefab: {fileID: 2453250424522229106, guid: cc090316588c4b147840c8bbf29c6c7f, type: 3}
 --- !u!114 &-5088328310697567304
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -214,7 +215,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6ecaa8307f4f6db4caa5cd8d5dcd028c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  shield: {fileID: 0}
+  shield: {fileID: 1598013222141162214, guid: 37efdb753cc4c1040b2a606ae43963cf, type: 3}
   itemList: []
 --- !u!1 &465644975886632470
 GameObject:
