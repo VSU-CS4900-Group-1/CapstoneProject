@@ -8,7 +8,7 @@ public class Enemy2Pattern : MonoBehaviour
     public GameObject pointB;
     private Rigidbody2D rb;
     private Transform currentPoint;
-    public float speed = 2f;
+    public float speed = 0.5f;
    // private Scoring pointManager;
     // Start is called before the first frame update
     void Start()

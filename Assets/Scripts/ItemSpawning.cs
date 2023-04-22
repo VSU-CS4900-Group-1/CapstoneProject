@@ -8,6 +8,7 @@ public class ItemSpawning : MonoBehaviour
     public GameObject spawnedItemPrefab;             // Variable that controls the Item prefab that spawns items upon death
     private GameObject currItemObject;               // Current instantiated item object 
     public List<Item> itemList = new List<Item>();   // List that holds all existing items
+    private Animator anim;                           // Animator variable for item animation control
 
     /***Methods***/
 
@@ -41,6 +42,31 @@ public class ItemSpawning : MonoBehaviour
         return null;
     }
 
+    /*Generates an item animation for the current item object*/
+    private void triggerAnimation(Item currItem, GameObject currItemObject)
+    {
+        anim = currItemObject.GetComponent<Animator>();
+        if (anim != null)
+        {
+            switch (currItem.name)
+            {
+                case "Deflector Shield":
+                    anim.SetTrigger("DeflectorShieldsActive");
+                    break;
+                case "Engine Boosters":
+                    anim.SetTrigger("EngineBoostersActive");
+                    break;
+                case "Gun Upgrade":
+                    anim.SetTrigger("GunUpgradeActive");
+                    break;
+                case "Scrap Material":
+                    anim.SetTrigger("ScrapMaterialActive");
+                    break;
+
+            }
+        }
+    }
+
     /*Spawns item and simulates explosion mobility once enemy is destroyed*/
     public void ItemInstance(Vector3 spawnPosition)
     {
@@ -51,9 +77,9 @@ public class ItemSpawning : MonoBehaviour
          * drifts along the X and Y axis*/
         if(spawnedItem != null)
         {
-            //***SUBJECT TO CHANGE***//
             currItemObject = Instantiate(spawnedItemPrefab, spawnPosition, Quaternion.identity);
             currItemObject.GetComponent<SpriteRenderer>().sprite = spawnedItem.itemSprite;
+            triggerAnimation(spawnedItem, currItemObject);
             currItemObject.name = spawnedItem.itemName;
             currItemObject.gameObject.tag = "Item";
             currItemObject.gameObject.layer = 6;
@@ -62,5 +88,4 @@ public class ItemSpawning : MonoBehaviour
             currItemObject.GetComponent<Rigidbody2D>().AddForce(direction * force, ForceMode2D.Impulse);
         }
     }
-
 }

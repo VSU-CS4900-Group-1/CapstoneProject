@@ -28,6 +28,6 @@ public class Enemy3Pattern : MonoBehaviour
 
     // Update is called once per frame
     void Update() {
-        rb.velocity = new Vector2(0, -15f/*Random.Range(-10* Time.deltaTime, 8* Time.deltaTime)*/);
+        rb.velocity = new Vector2(0, -2f/*Random.Range(-10* Time.deltaTime, 8* Time.deltaTime)*/);
     }
 }

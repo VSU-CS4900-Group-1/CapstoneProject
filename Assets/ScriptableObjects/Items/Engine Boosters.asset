@@ -14,5 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemSprite: {fileID: 21300000, guid: 8908e41c1a5852848bfca3b7a77388d2, type: 3}
   itemName: Engine Boosters
-  dropRate: 5
+  dropRate: 10
   duration: 15

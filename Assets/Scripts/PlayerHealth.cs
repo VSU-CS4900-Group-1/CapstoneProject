@@ -13,6 +13,7 @@ public class PlayerHealth : MonoBehaviour
     Renderer rend;
     Color c;
     public GameObject Player;
+    public GameObject explosionPrefab;
    
     void Start()
     {
@@ -48,21 +49,26 @@ public class PlayerHealth : MonoBehaviour
 
 	      if(currentHealth <= 0)
 	      {
+            StartCoroutine(Invulnerable());
 
-            
             if (extraLives > 0) {
-
-                extraLives -= 1;
                 
+                extraLives -= 1;
+                GameObject explosion = Instantiate(explosionPrefab, transform.position, Quaternion.identity);
+                explosion.GetComponent<ParticleSystem>().Play();
+                Destroy(explosion, 2f);
                 Player.transform.position = new Vector3(-500, -500, 0);
                 StartCoroutine(Timer());
                 StopCoroutine(Timer());
-                StartCoroutine(Invulnerable());
+                
                 
 
             }
             else {
-                Destroy(gameObject);
+                Player.transform.position = new Vector3(-500, -500, 0);
+                GameObject explosion = Instantiate(explosionPrefab, transform.position, Quaternion.identity);
+                explosion.GetComponent<ParticleSystem>().Play();
+                Destroy(explosion, 2f);
                 //game over screen
             }
         }
@@ -74,7 +80,7 @@ public class PlayerHealth : MonoBehaviour
         Physics2D.IgnoreLayerCollision(11, 13, true);
         c.a = 0.5f;
         rend.material.color = c;
-        yield return new WaitForSeconds(3f);
+        yield return new WaitForSeconds(6f);
         Physics2D.IgnoreLayerCollision(11, 9, false);
         Physics2D.IgnoreLayerCollision(11, 13, false);
         c.a = 1f;
