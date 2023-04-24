@@ -9,13 +9,17 @@ public class Boss : MonoBehaviour
     public float speed = 0f;
     public int damage = 1;
     public float BossHealth = 50f;
+    public Sprite bossSprite;
+    public GameObject explosionPrefab;
     private Scoring pointManager;
     private HealthManager HealthManager;
+    private ParticleSystem.MainModule mainPS;
    
     // Start is called before the first frame update
     void Start()
     {
         HealthManager = GameObject.Find("HealthManager").GetComponent<HealthManager>();
+        GetComponent<SpriteRenderer>().sprite = bossSprite;
     
        
     }
@@ -47,7 +51,11 @@ public class Boss : MonoBehaviour
     /* Destroys enemy object and potentially spawns an item */
     void Death()
     {
-        
+        GameObject explosion = Instantiate(explosionPrefab, transform.position, Quaternion.identity);
+        mainPS = explosion.GetComponent<ParticleSystem>().main;
+        mainPS.startSize = new ParticleSystem.MinMaxCurve(7f, 12f);
+        explosion.GetComponent<ParticleSystem>().Play();
+        Destroy(explosion, 2f);
         Destroy(this.gameObject);
     }
 }

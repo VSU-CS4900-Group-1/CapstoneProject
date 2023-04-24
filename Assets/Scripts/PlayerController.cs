@@ -11,6 +11,7 @@ public class PlayerController : MonoBehaviour
 
     Vector2 moveDirection;
     Vector2 mousePosition;
+    public AudioSource LaserBullet;
 
     List<Item> inventory = new List<Item>();
 
@@ -27,7 +28,9 @@ public class PlayerController : MonoBehaviour
         float moveY = Input.GetAxisRaw("Vertical");
 
         if (Input.GetMouseButtonDown(0)) {
+            
             weapon.Fire();
+            LaserBullet.Play();
         }
 
         moveDirection = new Vector2(moveX, moveY).normalized;

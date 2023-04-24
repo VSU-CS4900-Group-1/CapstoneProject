@@ -27,7 +27,7 @@ public class Enemy1Pattern2 : MonoBehaviour
         Vector2 point = currentPoint.position - transform.position;
 
         if (currentPoint == pointB.transform) {
-            rb.velocity = new Vector2(speed, -15f/*Random.Range(-10* Time.deltaTime, 8* Time.deltaTime)*/);
+            rb.velocity = new Vector2(speed, -2f/*Random.Range(-10* Time.deltaTime, 8* Time.deltaTime)*/);
         }
 
         else {
