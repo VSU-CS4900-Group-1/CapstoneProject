@@ -57,6 +57,7 @@ public class EnemySpawning : MonoBehaviour {
                 //waveCompleted();
                 if(waveCompleted() == 1) {
                     LoadNextLevel();
+                    state = 0;
                 }
             }
 
@@ -93,6 +94,7 @@ public class EnemySpawning : MonoBehaviour {
         yield return new WaitForSeconds(transitionTime);
 
         SceneManager.LoadScene(levelIndex);
+        
     }
 
 
